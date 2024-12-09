@@ -1,0 +1,29 @@
+# Исключаем всю папку Content, кроме сохраненных уровней
+/Content/*
+!/Content/Maps/*
+!/Content/Maps_Atributes/**
+
+# Исключаем папку Binaries, Intermediate, Saved (временные файлы)
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# Исключаем дополнительные файлы и папки, которые не нужны в репозитории
+*.tmp
+*.log
+*.pdb
+*.suo
+*.user
+*.userprefs
+*.obj
+*.o
+*.class
+*.dll
+*.exe
+*.bin
+*.csv
+*.dat
+*.pak
+*.dmp
+*.uassetr
